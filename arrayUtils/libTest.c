@@ -231,7 +231,7 @@ void test_map_should_map_each_element_of_the_array_and_stores_result_in_destinat
   assert(((int *)destination.base)[1] == 4);
   assert(((int *)destination.base)[2] == 9);
   assert(((int *)destination.base)[3] == 16);
-  assert(((int *)destination.base)[4] == 285);
+  assert(((int *)destination.base)[4] == 25);
 };
 
 void test_forEach_will_execute_operation_for_each_element_in_the_array(){
